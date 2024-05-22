@@ -1,16 +1,11 @@
 <!doctype html>
 <!--
-* PHP Attendance Management System
-* Email: heyalexluna@gmail.com
-* Version: 1.1
-* Author: Alexis Luna
-* Copyright 2019 Alexis Luna
-* Website: https://github.com/mralexisluna/php-attendance-management-system
+* Racing R Attendance Monitoring System
 -->
 <html lang="en" class="fullscreen-bg">
 
 <head>
-	<title>Sign in | Smart Timesheet</title>
+	<title>Sign in | Racing R - AMS</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
