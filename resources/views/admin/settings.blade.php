@@ -21,8 +21,8 @@
                             
                     <div class="ui secondary blue pointing tabular menu">
                         <a class="item active" data-tab="system">System</a>
-                        <a class="item" data-tab="about">About</a>
-                        <a class="item" data-tab="attribution">Attributions</a>
+                        <!--<a class="item" data-tab="about">About</a>-->
+                        <!--<a class="item" data-tab="attribution">Attributions</a>-->
                     </div>
                     
                     <div class="ui tab active" data-tab="system">

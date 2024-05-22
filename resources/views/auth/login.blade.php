@@ -24,8 +24,8 @@
 				<div class="auth-box">
 					<div class="content">
 						<div class="header">
-							<div class="logo align-center"><img src="{{ asset('/assets/images/img/logo-small.png') }}" alt="Smart Timesheet"></div>
-							<p class="lead">Sign in to your account</p>
+							<div class="logo align-center"><img src="{{ asset('/assets/images/img/Login-logo.png') }}" alt="Smart Timesheet"></div>
+							<p class="lead">Attendance Monitoring System</p>
 						</div>
 						<form class="form-auth-small ui form" action="{{ route('login') }}" method="POST">
                        		{{ csrf_field() }}
@@ -63,7 +63,7 @@
 								</div>
 							</div>
 
-							<button type="submit" class="ui blue button large fluid">SIGN IN</button>
+							<button type="submit" class="ui black button large fluid">SIGN IN</button>
 						</form>
 					</div>
 				</div>

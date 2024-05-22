@@ -197,7 +197,7 @@ a[data-toggle="collapse"] {
     line-height: 1.42857;
     margin: 5px 0px;
     padding: 10px 15px;
-    color: white
+    color: white /*nav-bar letter color*/
 }
 
 .logo {
@@ -217,11 +217,11 @@ a[data-toggle="collapse"] {
 
 .logo a img {
     max-width: 140px;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 .bg-lightblue {
-    background: #00b5ad;
+    background: #B40000; /*nav-bar color*/
 }
 
 .btn-light-outline,
@@ -239,8 +239,8 @@ a[data-toggle="collapse"] {
 
 .btn-light-outline:hover,
 .btn-light-outline:active {
-    background: #00968f !important;
-    box-shadow: 0 0 0 1px #00968f inset !important;
+    background: #D22B2B !important;
+    box-shadow: 0 0 0 1px #D22B2B inset !important;
 }
 
 .hollow {
@@ -393,7 +393,7 @@ a[data-toggle="collapse"] {
 /* _____________ new box _____________ */
 
 .box.box-success {
-    border-top-color: #00b5ad;
+    border-top-color: #B40000; /**/
 }
 
 .box {
