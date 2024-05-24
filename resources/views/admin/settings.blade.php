@@ -746,7 +746,7 @@
                         <div class="col-md-12">
                             <div class="tab-content">
                                 <p class="license col-md-6" style="margin-bottom:0">
-                                    <h3 style="margin-top:0" class="ui header">Timely Sheets: Attendance Management System</h3>
+                                    <h3 style="margin-top:0" class="ui header">Racing-R: Attendance Monitoring System</h3>
                                     <p>Timely Sheets is a Time and Attendance platform designed to help HR in managing employee attendance life cycle from time tracking to scheduling and understand the true value of their Human Resources.</p>
 
                                     <h4 class="ui header">Timely Sheets' smarter approach to Time and Attendance</h4>
@@ -774,7 +774,7 @@
                     <div class="ui tab" data-tab="attribution">
                         <div class="tab-content">
                         <h3 class="ui header">Legal Notice
-                        <div class="sub header">Copyright (c) 2019 Brian Luna. All rights reserved.</div>
+                        <div class="sub header">Copyright (c) 2024 Cedrick Monge. All rights reserved.</div>
                         </h3>
 
                         <h5 class="ui header">Laravel

@@ -1,11 +1,6 @@
 <!doctype html>
 <!--
-* PHP Attendance Management System
-* Email: heyalexluna@gmail.com
-* Version: 1.1
-* Author: Alexis Luna
-* Copyright 2019 Alexis Luna
-* Website: https://github.com/mralexisluna/php-attendance-management-system
+* Racing-R Attendance Monitoring System
 -->
 <html lang="{{ app()->getLocale() }}">
     <head>
@@ -15,7 +10,7 @@
         <meta name="viewport" content="width=device-width" />
         <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-        <title>Smart Timesheet</title>
+        <title>Racing R - AMS</title>
         <link rel="stylesheet" type="text/css" href="{{ asset('/assets/vendor/bootstrap/css/bootstrap.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('/assets/vendor/semantic-ui/semantic.min.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('/assets/vendor/DataTables/datatables.min.css') }}">
@@ -38,7 +33,7 @@
             <div class="sidebar-header bg-lightblue">
                 <div class="logo">
                 <a href="/" class="simple-text">
-                    <img src="{{ asset('/assets/images/img/logo-small.png') }}">
+                    <img src="{{ asset('/assets/images/img/RR-logo.png') }}">
                 </a>
                 </div>
             </div>
@@ -68,12 +63,12 @@
                         <p>My Leave</p>
                     </a>
                 </li>
-                <li>
+                <!--<li>
                     <a href="{{ url('personal/settings') }}">
                         <i class="ui icon cog"></i>
                         <p>Settings</p>
                     </a>
-                </li>
+                </li>-->
             </ul>
         </nav>
 

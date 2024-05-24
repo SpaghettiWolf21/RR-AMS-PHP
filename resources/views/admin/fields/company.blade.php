@@ -21,7 +21,7 @@
                     <form id="add_company_form" action="{{ url('fields/company/add') }}" class="ui form" method="post" accept-charset="utf-8">
                         {{ csrf_field() }}
                         <div class="field">
-                            <label>Company Name <span class="help">e.g. "Apple Corporation"</span></label>
+                            <label>Company Name <span class="help">e.g. "Racing R, KR-KY"</span></label>
                             <input class="uppercase" name="company" value="" type="text">
                         </div>
                         <div class="field">

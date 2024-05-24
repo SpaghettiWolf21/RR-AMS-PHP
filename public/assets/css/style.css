@@ -1,10 +1,5 @@
 /*
-* PHP Attendance Management System
-* Email: heyalexluna@gmail.com
-* Version: 1.1
-* Author: Alexis Luna
-* Copyright 2019 Alexis Luna
-* Website: https://github.com/mralexisluna/php-attendance-management-system
+* Racing R Attendance Monitoring System
 */
 
 h1,
@@ -139,6 +134,7 @@ a[data-toggle="collapse"] {
 
 #body {
     background-image: url("bg.jpg");
+    background-size: cover;
     z-index: 2;
     float: right;
     width: calc(100% - 210px);
@@ -1237,7 +1233,6 @@ h5,
 }
 
 img.avatar {
-    border-radius: 50%;
     max-width: 220px;
     text-align: center;
     width: 100%;

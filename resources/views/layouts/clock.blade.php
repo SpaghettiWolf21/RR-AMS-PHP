@@ -1,11 +1,6 @@
 <!doctype html>
 <!--
-* PHP Attendance Management System
-* Email: heyalexluna@gmail.com
-* Version: 1.1
-* Author: Alexis Luna
-* Copyright 2019 Alexis Luna
-* Website: https://github.com/mralexisluna/php-attendance-management-system
+* Racing R Attendance Monitoring System
 -->
 <html lang="{{ app()->getLocale() }}">
     <head>
@@ -15,7 +10,7 @@
         <meta name="viewport" content="width=device-width" />
         <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-        <title>Smart Clock | Smart Timesheet</title>
+        <title>In-Out Clock | Racing R - AMS</title>
         <link rel="stylesheet" type="text/css" href="{{ asset('/assets/vendor/bootstrap/css/bootstrap.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('/assets/vendor/semantic-ui/semantic.min.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/clock.css') }}">
@@ -31,7 +26,7 @@
     </head>
     <body>
 
-    <img src="{{ asset('/assets/images/img/clock-background.png') }}" class="wave">
+    <img src="{{ asset('/assets/images/img/bg.jpg') }}" class="wave">
     <div class="wrapper">
         
         <div id="body">

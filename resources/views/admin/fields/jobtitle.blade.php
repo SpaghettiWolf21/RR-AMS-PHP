@@ -36,7 +36,7 @@
                             </select>
                         </div>
                         <div class="field">
-                            <label>Job Title <span class="help">e.g. "Operations Manager"</span></label>
+                            <label>Job Title <span class="help">e.g. "Office Staff, Department Manager"</span></label>
                             <input class="uppercase" name="jobtitle" value="" type="text" value="">
                         </div>
                         <div class="field">

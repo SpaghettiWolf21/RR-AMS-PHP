@@ -258,7 +258,7 @@ Route::group(['middleware' => 'auth'], function () {
 			Route::get('view/personal/leave', 'personal\PersonalLeavesController@viewPL');
 
 			// settings 
-			Route::get('personal/settings', 'personal\PersonalSettingsController@index');
+			//Route::get('personal/settings', 'personal\PersonalSettingsController@index');
 
 			// user 
 			Route::get('personal/update-user', 'personal\PersonalAccountController@viewUser')->name('changeUser');

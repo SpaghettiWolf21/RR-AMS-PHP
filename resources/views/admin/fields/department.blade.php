@@ -21,7 +21,7 @@
                     <form id="add_department_form" action="{{ url('fields/department/add') }}" class="ui form" method="post" accept-charset="utf-8">
                         {{ csrf_field() }}
                         <div class="field">
-                            <label>Department Name <span class="help">e.g. "Accounting"</span></label>
+                            <label>Department Name <span class="help">e.g. "Accounting, HR, Online"</span></label>
                             <input class="uppercase" name="department" value="" type="text">
                         </div>
                         <div class="field">
