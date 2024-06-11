@@ -94,7 +94,7 @@
                                         <td><p>@isset($p->homeaddress) {{ $p->homeaddress }} @endisset</p></td>
                                     </tr>
                                     <tr>
-                                        <td><p>National ID</p></td>
+                                        <td><p>Salary Rate</p></td>
                                         <td><p>@isset($p->nationalid) {{ $p->nationalid }} @endisset</p></td>
                                     </tr>
                                     <tr>

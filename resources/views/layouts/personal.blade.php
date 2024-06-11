@@ -87,7 +87,8 @@
                                     <i class="ui icon th"></i> <span class="navmenutext">Quick Access</span>
                                     <i class="dropdown icon"></i>
                                     <div class="menu" tabindex="-1">
-                                      <a href="{{ url('clock') }}" target="_blank" class="item"><i class="ui icon clock outline"></i> Clock In/Out</a>
+                                      <!--Quick Access Clock-->
+                                      <!--<a href="{{ url('clock') }}" target="_blank" class="item"><i class="ui icon clock outline"></i> Clock In/Out</a>-->
                                       <div class="divider"></div>
                                       <a href="{{ url('personal/profile/view') }}" target="_blank" class="item"><i class="ui icon user outline"></i> My Profile</a>
                                     </div>

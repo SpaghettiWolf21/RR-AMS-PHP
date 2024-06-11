@@ -91,9 +91,10 @@ class AttendanceController extends Controller
             $time_out_24h = date("H.i", strtotime($timeOUT));
             if($time_out_24h >= $sched_clock_out_time_24h) {
                 $status_out = 'On Time';
-            } else {
+            }else {
                 $status_out = 'Early Departure';
             }
+            
         }
 
         $time1 = Carbon::createFromFormat("Y-m-d h:i:s A", $timeIN); 

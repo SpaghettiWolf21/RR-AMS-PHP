@@ -9,7 +9,7 @@ use App\Classes\permission;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Storage;
+use \Illuminate\Support\Facades\Storage;
 
 
 class ExportsController extends Controller
@@ -97,7 +97,7 @@ class ExportsController extends Controller
 		if (permission::permitted('reports')=='fail'){ return redirect()->route('denied'); }
 		$p = table::people()->get();
 
-		Storage::delete('employee-list.csv');
+		//Storage::delete('employee-list.csv');
 		Storage::put('employee-list.csv', '', 'private');
 
 		foreach ($p as $d) {
@@ -120,7 +120,7 @@ class ExportsController extends Controller
 		if ($id == null AND $datefrom == null AND $dateto == null) {
 			
 			$data = table::attendance()->get();
-			Storage::delete('attendance-report.csv');
+			//Storage::delete('attendance-report.csv');
 			Storage::put('attendance-report.csv', '', 'private');
 
 			foreach ($data as $d) {
@@ -197,7 +197,7 @@ class ExportsController extends Controller
 		if ($id == null AND $datefrom == null AND $dateto == null) {
 			
 			$data = table::leaves()->get();
-			Storage::delete('leaves-report.csv');
+			//Storage::delete('leaves-report.csv');
 			Storage::put('leaves-report.csv', '', 'private');
 
 			foreach ($data as $d) {
@@ -268,7 +268,7 @@ class ExportsController extends Controller
 			->join('tbl_company_data', 'tbl_people.id', '=', 'tbl_company_data.reference')
 			->get();
 
-		Storage::delete('employee-birthdays.csv');
+		//Storage::delete('employee-birthdays.csv');
 		Storage::put('employee-birthdays.csv', '', 'private');
 
 		foreach ($c as $d) {

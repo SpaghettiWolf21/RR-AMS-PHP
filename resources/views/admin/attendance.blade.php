@@ -70,9 +70,10 @@
                                         @endif
                                     @endisset
                                 </td>
-                                <td>
+
+                                <td> <!--In and Out Status Comment!-->
                                     @if($d->status_timein != null OR $d->status_timeout != null) 
-                                        <span class="@if($d->status_timein == 'Late Arrival') orange @else blue @endif">{{ $d->status_timein }}</span> / 
+                                        <span class="@if($d->status_timein == 'Late Arrival') orange @else blue @endif">{{ $d->status_timein }}</span> /
                                         
                                         @isset($d->status_timeout) 
                                             <span class="@if($d->status_timeout == 'Early Departure') red @else green @endif">
@@ -83,6 +84,7 @@
                                         <span class="blue">{{ $d->status_timein }}</span>
                                     @endif 
                                 </td>
+
                                 @isset($clock_comment)
                                     @if($clock_comment == 1)
                                         <td>{{ $d->comment }}</td>

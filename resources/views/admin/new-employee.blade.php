@@ -88,7 +88,7 @@
                                 </div>
                             </div>
                             <div class="field">
-                                <label>National ID</label>
+                                <label>Salary Rate</label>
                                 <input type="text" class="uppercase" name="nationalid" value="" placeholder="">
                             </div>
                             <div class="field">

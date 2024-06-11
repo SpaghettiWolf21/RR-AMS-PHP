@@ -89,7 +89,7 @@
                                     </div>
                                 </div>
                                 <div class="field">
-                                    <label>National ID</label>
+                                    <label>Salary Rate</label>
                                     <input type="text" class="uppercase" name="nationalid" value="@isset($person_details->nationalid){{ $person_details->nationalid }}@endisset" placeholder="">
                                 </div>
                                 <div class="field">

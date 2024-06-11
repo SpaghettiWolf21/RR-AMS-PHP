@@ -91,7 +91,7 @@ class ProfileController extends Controller
 		$weight = $request->weight;
 		$mobileno = $request->mobileno;
 		$birthday = date("Y-m-d", strtotime($request->birthday));
-		$nationalid = mb_strtoupper($request->nationalid);
+		$nationalid = mb_strtoupper($request->nationalid); //national id controller
 		$birthplace = mb_strtoupper($request->birthplace);
 		$homeaddress = mb_strtoupper($request->homeaddress);
 		
