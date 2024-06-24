@@ -57,7 +57,7 @@
                                     <tbody>
                                         <tr>
                                             <td>Online</td>
-                                            <td>@isset($is_online_now) {{ $is_online_now }} @endisset</td>
+                                            <td>@isset($is_online_now) {{ $is_online_now }} @endisset</td> <!--May problem ditu-->
                                         </tr>
                                         <tr>
                                             <td>Offline</td>

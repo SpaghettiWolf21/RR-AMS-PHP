@@ -12,6 +12,7 @@
 	<!-- VENDOR CSS -->
     <link href="{{ asset('/assets/vendor/semantic-ui/semantic.min.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('/assets/css/auth.css') }}" rel="stylesheet">
+	
 
 </head>
 

@@ -16,6 +16,8 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('/assets/vendor/DataTables/datatables.min.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/style.css') }}">
         
+        <link rel="shortcut icon" type="image/x-icon" href="public/favicon.ico" />
+
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>

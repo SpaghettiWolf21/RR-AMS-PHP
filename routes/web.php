@@ -18,16 +18,16 @@
 Route::group(['middleware' => 'auth'], function () {
 
 	Route::group(['middleware' => 'checkstatus'], function () {
-		/*
-		|--------------------------------------------------------------------------
-		| Universal SmartClock 
-		|--------------------------------------------------------------------------
-		*/
-		Route::get('clock', 'ClockController@clock');
-		Route::post('attendance/add', 'ClockController@add'); 
-		
 
 		Route::group(['middleware' => 'admin'], function () {
+
+			/*
+			|--------------------------------------------------------------------------
+			| Clock In and Out
+			|--------------------------------------------------------------------------
+			*/
+			Route::get('clock', 'ClockController@clock');
+			Route::post('attendance/add', 'ClockController@add'); 
 			/*
 			|--------------------------------------------------------------------------
 			| Dashboard 
@@ -251,9 +251,6 @@ Route::group(['middleware' => 'auth'], function () {
 			Route::get('personal/leaves/delete/{id}', 'personal\PersonalLeavesController@delete');
 			Route::get('get/personal/leaves', 'personal\PersonalLeavesController@getPL');
 			Route::get('view/personal/leave', 'personal\PersonalLeavesController@viewPL');
-
-			// settings 
-			//Route::get('personal/settings', 'personal\PersonalSettingsController@index');
 
 			// user 
 			Route::get('personal/update-user', 'personal\PersonalAccountController@viewUser')->name('changeUser');
